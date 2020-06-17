@@ -27,7 +27,7 @@ import registerVerify from "./views/pages/registerVerify";
 import UserProfile from "./views/pages/UserProfile"
 import forgetpassword from "./views/pages/Forgetpassword/forgetpassword"
 import ResetVerify from "./views/pages/ResetVerify/ResetVerify"
-// =========================PAYMENT PAGES==================================
+// =========================PAYMENT PAGESs==================================
 import PaymentMain from "./views/pages/Payment/PaymentMain";
 import cardPayment from "./views/pages/Payment/cardPayment";
 import receiptPayment from "./views/pages/Payment/receiptPayment";
