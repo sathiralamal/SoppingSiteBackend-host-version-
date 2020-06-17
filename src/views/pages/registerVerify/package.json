@@ -1,0 +1,7 @@
+{
+    "name": "RegisterVerify",
+    "version": "0.0.0",
+    "private": true,
+    "main": "./registerVerify.js"
+}
+  

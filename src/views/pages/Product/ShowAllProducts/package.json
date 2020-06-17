@@ -1,0 +1,6 @@
+{
+  "name": "ShowAllProducts",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./ShowAllProducts.js"
+}
