@@ -6,7 +6,7 @@ import * as serviceWorker from './serviceWorker';
 
 global.name="";
 global.backend="https://shoppingsitebackend3-env.eba-v8yecz8b.us-east-2.elasticbeanstalk.com";
-global.backendSoket="http://localhost:4000";
+global.backendSoket="https://shoppingsitebackend3-env.eba-v8yecz8b.us-east-2.elasticbeanstalk.com:4000";
 console.log("this is name"+global.name)
 ReactDOM.render(<App />, document.getElementById('root'));
 
