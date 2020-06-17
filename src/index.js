@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
-
+//cc
 global.name="";
 global.backend="https://shoppingsitebackend3-env.eba-v8yecz8b.us-east-2.elasticbeanstalk.com";
 global.backendSoket="https://shoppingsitebackend3-env.eba-v8yecz8b.us-east-2.elasticbeanstalk.com:4000";
