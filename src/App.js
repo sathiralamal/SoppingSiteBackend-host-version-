@@ -7,41 +7,41 @@ import "alertifyjs/build/css/alertify.min.css";
 import "alertifyjs/build/css/alertify.css";
 import "alertifyjs/build/css/themes/default.min.css";
 
-import DefaultFooter from "./containers/DefaultLayout/DefaultFooter";
-import DefaultHeader from "./containers/DefaultLayout/DefaultHeader";
-import AddProduct from "./views/pages/Product/AddProduct/AddProduct";
-import {DefaultLayout} from "./containers";
-import ShowAllProducts from "./views/pages/Product/ShowAllProducts/ShowAllProducts";
-import ShowOneProduct from "./views/pages/Product/ShowOneProduct/ShowOneProduct";
-import Home from "./views/pages/HomePage";
-import Register from "./views/pages/Register"
-import UpdateProduct from "./views/pages/Product/UpdateProduct/UpdateProduct";
-import MyShop from "./views/pages/Product/MyShop/MyShop";
-import AdminDashbord from "./views/pages/AdminPages/admindashbord";
-import fakeAuth from "./views/pages/fakeAuth"
-import Login from "./views/pages/Login"
-import Login2 from "./views/pages/Login/Login2"
-import ProductCategory from "./views/pages/AdminPages/ProductCategory/createcategoryPanal";
-import StoreManagerPanal from "./views/pages/AdminPages/StoreManagerRegister/StoremanagerPanal";
-import registerVerify from "./views/pages/registerVerify";
-import UserProfile from "./views/pages/UserProfile"
-import forgetpassword from "./views/pages/Forgetpassword/forgetpassword"
-import ResetVerify from "./views/pages/ResetVerify/ResetVerify"
+// import DefaultFooter from "./containers/DefaultLayout/DefaultFooter";
+// import DefaultHeader from "./containers/DefaultLayout/DefaultHeader";
+// import AddProduct from "./views/pages/Product/AddProduct/AddProduct";
+// import {DefaultLayout} from "./containers";
+// import ShowAllProducts from "./views/pages/Product/ShowAllProducts/ShowAllProducts";
+// import ShowOneProduct from "./views/pages/Product/ShowOneProduct/ShowOneProduct";
+// import Home from "./views/pages/HomePage";
+// import Register from "./views/pages/Register"
+// import UpdateProduct from "./views/pages/Product/UpdateProduct/UpdateProduct";
+// import MyShop from "./views/pages/Product/MyShop/MyShop";
+// import AdminDashbord from "./views/pages/AdminPages/admindashbord";
+// import fakeAuth from "./views/pages/fakeAuth"
+// import Login from "./views/pages/Login"
+// import Login2 from "./views/pages/Login/Login2"
+// import ProductCategory from "./views/pages/AdminPages/ProductCategory/createcategoryPanal";
+// import StoreManagerPanal from "./views/pages/AdminPages/StoreManagerRegister/StoremanagerPanal";
+// import registerVerify from "./views/pages/registerVerify";
+// import UserProfile from "./views/pages/UserProfile"
+// import forgetpassword from "./views/pages/Forgetpassword/forgetpassword"
+// import ResetVerify from "./views/pages/ResetVerify/ResetVerify"
 //=========================PAYMENT PAGES==================================
-import PaymentMain from "./views/pages/Payment/PaymentMain";
-import cardPayment from "./views/pages/Payment/cardPayment";
-import receiptPayment from "./views/pages/Payment/receiptPayment";
-import payConfirm from "./views/pages/Payment/payConfirm";
-import payAdmin from "./views/pages/Payment/payAdmin";
-import refundPayment from "./views/pages/Payment/refundPayment";
-import refundRequest from "./views/pages/Payment/refundRequest";
-import paymentSuccess from "./views/pages/Payment/PaymentSuccess";
-import payment from "./views/pages/Payment/Payment";
-import viewAllPayments from "./views/pages/Payment/viewAllPayments";
-import payAdminCard from "./views/pages/Payment/payAdminCard";
-import payAdminReceipt from "./views/pages/Payment/payAdminReceipt";
-import payAdminRefund from "./views/pages/Payment/payAdminRefund";
-import payInvoice from "./views/pages/Payment/PaymentInvoice";
+// import PaymentMain from "./views/pages/Payment/PaymentMain";
+// import cardPayment from "./views/pages/Payment/cardPayment";
+// import receiptPayment from "./views/pages/Payment/receiptPayment";
+// import payConfirm from "./views/pages/Payment/payConfirm";
+// import payAdmin from "./views/pages/Payment/payAdmin";
+// import refundPayment from "./views/pages/Payment/refundPayment";
+// import refundRequest from "./views/pages/Payment/refundRequest";
+// import paymentSuccess from "./views/pages/Payment/PaymentSuccess";
+// import payment from "./views/pages/Payment/Payment";
+// import viewAllPayments from "./views/pages/Payment/viewAllPayments";
+// import payAdminCard from "./views/pages/Payment/payAdminCard";
+// import payAdminReceipt from "./views/pages/Payment/payAdminReceipt";
+// import payAdminRefund from "./views/pages/Payment/payAdminRefund";
+// import payInvoice from "./views/pages/Payment/PaymentInvoice";
 
 //=========================CART===========================================
 
