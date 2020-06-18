@@ -106,7 +106,7 @@ class cardPayment extends Component {
             .then(res=>console.log('Add new payment :'+res.data))
             .catch(err=>console.log('Error!! unsuccessful :'+err.data));
         var protection="Confirm";
-        window.location.href= `http://localhost:3000/payConfirm?protection=${protection}`;
+        window.location.href= `/payConfirm?protection=${protection}`;
     }
 
     render() {

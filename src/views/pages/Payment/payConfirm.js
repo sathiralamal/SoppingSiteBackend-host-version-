@@ -70,12 +70,12 @@ class payConfirm extends Component {
 
         if(this.state.code == this.state.getCode)
         {
-            window.location='http://localhost:3000/paymentSuccess';
+            window.location='/paymentSuccess';
         }
         else
         {
             alert("Wrong secret code, provide the email again!!!");
-            window.location.href= `http://localhost:3000/emailConfirm?protection=Confirm`;
+            window.location.href= `/emailConfirm?protection=Confirm`;
         }
 
 

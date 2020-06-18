@@ -26,7 +26,7 @@ class payAdminCard extends Component {
         if(confirm !== 'Confirm')
         {
             alert("Access denied");
-            window.location='http://localhost:3000/payAdmin';
+            window.location='/payAdmin';
         }
 
         const options = {
@@ -54,7 +54,7 @@ class payAdminCard extends Component {
         axios.post(global.backend+'/payment/changeCardStatus', sendId, options)
             .then(res=>console.log('Request sent :'+res.data))
             .catch(err=>console.log('Error!! unsuccessful :'+err.data));
-        window.location='http://localhost:3000/payAdminCard';
+        window.location='/payAdminCard';
     }
 
     render() {

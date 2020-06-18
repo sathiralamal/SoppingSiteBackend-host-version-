@@ -47,7 +47,7 @@ class payAdmin extends Component {
             .catch(err=>console.log('Error!! unsuccessful :'+err.data));
         alert("Error fixed!!");
 
-        window.location.href= `http://localhost:3000/payAdmin`;
+        window.location.href= `/payAdmin`;
     }
 
     render() {
