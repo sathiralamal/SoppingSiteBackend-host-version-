@@ -221,7 +221,10 @@ export default class Cart extends Component {
              }
         
                  axios.put(global.backend+'/cart/quntity/'+editedItemId,newQuntityObj)
-                    .then(updateItem=>console.log(updateItem))
+                    .then(updateItem=>{
+                        window.location.href="/cart";
+                        console.log(updateItem)
+                    })
                     .catch(err=>console.log('error in update item'+err))
              this.editmodeToggle()
             //  window.location.href="/cart"
