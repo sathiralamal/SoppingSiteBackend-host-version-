@@ -224,7 +224,7 @@ export default class Cart extends Component {
                     .then(updateItem=>console.log(updateItem))
                     .catch(err=>console.log('error in update item'+err))
              this.editmodeToggle()
-             window.location.href="/cart"
+            //  window.location.href="/cart"
         }
     }
 //new quntity capturs
