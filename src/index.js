@@ -5,8 +5,8 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 //cc x
 //global.name="";
-global.backend="https://0xo0pfdf86.execute-api.us-east-1.amazonaws.com/prod";
-global.backendSoket="https://0xo0pfdf86.execute-api.us-east-1.amazonaws.com/prod:3030";
+global.backend="https://60kmc06osb.execute-api.us-east-1.amazonaws.com/production/product";
+global.backendSoket="https://60kmc06osb.execute-api.us-east-1.amazonaws.com/production/product:3030";
 //console.log("this is name"+global.name)
 ReactDOM.render(<App />, document.getElementById('root'));
 
