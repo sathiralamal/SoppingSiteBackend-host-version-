@@ -87,8 +87,8 @@ export default class orderPanal extends Component {
 
             })
             .catch(err=>console.log("error in delete order"))
-
-    window.location.href="/orderDashbord"
+        this.loadOrderData();
+    //window.location.href="/orderDashbord"
     }
 
     changeStatus=(ordr_id)=>{
