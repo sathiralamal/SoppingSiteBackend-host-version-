@@ -80,10 +80,9 @@ export default class orderPanal extends Component {
 
         Axios.delete(global.backend+'/order/'+order_id)
             .then( ressopns=>{
-                
-                window.location.href="/orderDashbord";
+                 window.location.href="/orderDashbord";
             })
-            .catch(err=>console.log("error in delete order"+err))
+            .catch(err=>console.log("error in deletes order"+err))
         
    
     }
