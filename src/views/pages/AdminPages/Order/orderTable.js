@@ -80,9 +80,9 @@ export default class orderPanal extends Component {
             .then(ressopns=>{
                 console.log("Order delete"+ressopns);
                     
-                    // this.setState({
-                    //     orderList:this.state.orderList.filter(el=>el._id!==order_id)
-                    //  })
+                    this.setState({
+                        orderList:this.state.orderList.filter(el=>el._id!==order_id)
+                     })
 
             })
             .catch(err=>console.log("error in delete order"))
