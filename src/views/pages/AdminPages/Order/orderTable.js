@@ -78,8 +78,7 @@ export default class orderPanal extends Component {
     deleteOder(order_id){
         Axios.delete(global.backend+'/order/'+order_id)
             .then(async ressopns=>{
-                console.log("Order delete"+await ressopns);
-                    
+                 this.loadOrderData();
                  this.setState({
                         orderList: this.state.orderList.filter(el=>el._id!==order_id)
                      })
@@ -94,7 +93,7 @@ export default class orderPanal extends Component {
         Axios.put(global.backend+'/order/changestatus'+ordr_id)
             .then(response=>{
                 console.log("Change order status");
-                this.loadOrderData();
+                this.orderManagmetList();
 
                                 
             })
