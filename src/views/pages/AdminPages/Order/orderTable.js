@@ -76,15 +76,16 @@ export default class orderPanal extends Component {
     }
 
     deleteOder(order_id){
+
         Axios.delete(global.backend+'/order/'+order_id)
-            .then(async ressopns=>{
+            .then(ressopns=>{
                  this.loadOrderData();
                  this.setState({
                         orderList: this.state.orderList.filter(el=>el._id!==order_id)
                      })
 
             })
-            .catch(err=>console.log("error in delete order"))
+            .catch(err=>console.log("error in delete order"+err))
         
     //window.location.href="/orderDashbord"
     }
