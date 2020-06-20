@@ -40,6 +40,7 @@ export default class orderPanal extends Component {
         this.orderManagmetList=this.orderManagmetList.bind(this);
         this.datanotLoad=this.datanotLoad.bind(this);
         this.handleSearch=this.handleSearch.bind(this);
+        this.deleteOder=this.deleteOder.bind(this);
 
     }
 
@@ -78,16 +79,13 @@ export default class orderPanal extends Component {
     deleteOder(order_id){
 
         Axios.delete(global.backend+'/order/'+order_id)
-            .then(ressopns=>{
-                 loadOrderData();
-                 this.setState({
-                        orderList: this.state.orderList.filter(el=>el._id!==order_id)
-                     })
-
+            .then( ressopns=>{
+                
+                window.location.href="/orderDashbord";
             })
             .catch(err=>console.log("error in delete order"+err))
         
-    //window.location.href="/orderDashbord"
+   
     }
 
     changeStatus=(ordr_id)=>{
