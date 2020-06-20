@@ -82,7 +82,7 @@ export default class orderPanal extends Component {
             .then( ressopns=>{
                  window.location.href="/orderDashbord";
             })
-            .catch(err=>console.log("error in deletes order"+err))
+            .catch(err=>console.log("error indeletes order"+err))
         
    
     }
