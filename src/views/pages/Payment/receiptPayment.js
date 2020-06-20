@@ -111,10 +111,11 @@ class cardPayment extends Component {
         };
 
         axios.post(global.backend+'/payment/addBankPayment',newBankPayment, options)
-            .then(res=>{console.log('Added new bank payment :'+res.data)
-                 var protection="Confirm";
+            .then(async res=>{
+                console.log('Added new bank payment :'+res.data)
+                 var protection= await "Confirm";
                  window.location.href= `/payConfirm?protection=${protection}`;
-                 )}
+                 })
             .catch(err=>console.log('Error!! unsuccessful :'+err.data));
         
     }
