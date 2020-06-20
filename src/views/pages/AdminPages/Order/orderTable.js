@@ -79,7 +79,7 @@ export default class orderPanal extends Component {
 
         Axios.delete(global.backend+'/order/'+order_id)
             .then(ressopns=>{
-                 this.loadOrderData();
+                 loadOrderData();
                  this.setState({
                         orderList: this.state.orderList.filter(el=>el._id!==order_id)
                      })
