@@ -47,7 +47,7 @@ class payAdminRefund extends Component {
             }
         };
         axios.post(global.backend+'/payment/acceptRefund', sendId, options)
-            .then(res=>window.location.reload())
+            .then(res=>location.reload())
             .catch(err=>console.log('Error!! unsuccessful :'+err.data));
         
     }
