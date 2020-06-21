@@ -149,7 +149,7 @@ export default class OrderPlaced extends Component {
         </Col>
         <Col md={6}>
           <FormGroup>
-           <h4  style={(this.props.totalDiscount==this.props.totalPrice)?{display:"none"}:{display:"inherit"}  } ><Badge color="warning"> <del>{this.props.totalDiscount+" $"}</del> </Badge></h4>
+           <h4  style={(this.props.totalDiscount==this.props.totalPrice)?{display:"none"}:{display:"inherit"}  } ><Badge color="warning"> <del>{Math.round(this.props.totalDiscount*100)/100+" $"}</del> </Badge></h4>
            <h6 > <Badge color="warning">{this.props.totalNumberOfProduct }</Badge> </h6>
           </FormGroup>
         </Col>
