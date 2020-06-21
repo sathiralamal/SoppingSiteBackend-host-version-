@@ -91,8 +91,7 @@ export default class orderPanal extends Component {
         Axios.put(global.backend+'/order/changestatus'+ordr_id)
             .then(response=>{
                 console.log("Change order status");
-                this.orderManagmetList();
-
+                window.location.href="/orderDashbord";
                                 
             })
             .catch(err=>console.log("Errror in change status"+err))

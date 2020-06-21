@@ -95,6 +95,8 @@ export default class Productcategoryform extends Component {
 
             setTimeout(()=>{
                 this.setState({datasendSuccessful:false})
+                window.location.href="/productcategory";
+
             },1600);
         
         })
