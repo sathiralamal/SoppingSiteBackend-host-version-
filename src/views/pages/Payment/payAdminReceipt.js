@@ -46,9 +46,11 @@ class payAdminReceipt extends Component {
             }
         };
         axios.post(global.backend+'/payment/changeCardStatus', sendId, options)
-            .then(res=>console.log('Request sent :'+res.data))
+            .then(async res=>{console.log('Request sent :'+res.data)
+                       window.location='/payAdminReceipt';
+                  })
             .catch(err=>console.log('Error!! unsuccessful :'+err.data));
-        window.location='/payAdminReceipt';
+        
     }
 
     render() {
