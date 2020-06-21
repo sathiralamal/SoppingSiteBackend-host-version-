@@ -52,9 +52,7 @@ class payAdminCard extends Component {
             }
         };
         axios.post(global.backend+'/payment/changeCardStatus', sendId, options)
-            .then(res=>{console.log('Request sent :'+res.data)
-                        window.location.reload();
-                       })
+            .then(res=>window.location.reload())
             .catch(err=>console.log('Error!! unsuccessful :'+err.data));
         
     }
